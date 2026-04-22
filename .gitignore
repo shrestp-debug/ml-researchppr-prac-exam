@@ -1,0 +1,28 @@
+# Environment variables (CRITICAL: DO NOT COMMIT API KEYS)
+.env
+
+# Python Virtual Environment
+venv/
+env/
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Datasets and Results (optional, usually ignored to save space)
+data/
+*.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Word Docs
+*.docx
